@@ -1,11 +1,8 @@
 package main;
 
 import robo.*;
-import stations.StationFactory;
-import tests.ChargeTest;
+import stations.ChargingStation;
 import tests.Charging;
-import tests.DiagonalWalkTest;
-import tests.SimpleTest;
 
 public class Application {
     public static void main(String[] args) {
@@ -13,7 +10,7 @@ public class Application {
 
         AbstractRobot IronManMark_32 = RobotFactory.getRobot("IronMan","charlie");
         AbstractRobot IronManMark_33 = RobotFactory.getRobot("IronMan","beta");
-        StationFactory f1 = new StationFactory();
+        ChargingStation f1 = new ChargingStation();
 
 
 
